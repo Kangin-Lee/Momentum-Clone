@@ -1,46 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/d0daa111c0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Nanum+Myeongjo:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Abel&family=Nanum+Myeongjo:wght@700&display=swap");
+    </style>
     <title>Momentum</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- login-form -->
-    <form class ="hidden" id="login-form">
-        <input required maxlength="15" type="text" placeholder="What is your name?">
-        <input type="submit" value="Log In" />
-        
-    </form>
+    
+  </head>
+  <body>
+    <div class="momentum">
+      <!-- time -->
+      <h2 id="clock">00:00:00</h2>
+      <h1 class="hidden" id="greeting"></h1>
 
-    <!-- time -->
-    <h2 id = "clock">00:00:00</h2>
-    <h1 class="hidden" id="greeting"></h1>
+      <!-- login-form -->
+      <form class="hidden" id="login-form">
+        <input
+          class="name"
+          required
+          maxlength="15"
+          type="text"
+          placeholder="What is your name?"
+        />
+        <input class="login-btn" type="submit" value="Log In" />
+      </form>
 
-    <!-- todolist -->
-    <form id="todo-form">
-        <input type="text" placeholder="Write a To Do and Press Enter" required/>
-    </form>
-    <ul id="todo-list"></ul>
+      <!-- to-do list -->
+      <form id="todo-form">
+        <input
+          type="text"
+          class="todo-text"
+          placeholder="Write a To Do and Press Enter"
+          required
+        />
+      </form>
+      <ul id="todo-list"></ul>
 
-    <!-- quote -->
-    <div id = "quote">
+      <!-- quote -->
+      <div id="quote">
         <span></span>
+
         <span></span>
+      </div>
+
+      <!-- weather -->
+      <div id="weather">
+        <span></span>
+        <br>
+        <span></span>
+      </div>
     </div>
 
-    <!-- weather -->
-    <div id="weather">
-        <span></span>
-        <span></span>
-    </div>
     <script src="JS/greeting.js"></script>
     <script src="JS/clock.js"></script>
     <script src="JS/quotes.js"></script>
     <script src="JS/background.js"></script>
     <script src="JS/todo.js"></script>
     <script src="JS/weather.js"></script>
-</body>
+  </body>
 </html>

@@ -1,43 +1,43 @@
 const quotes = [
     {
         quote: "Age is no guarantee of maturity.",
-        author: "Lawana Blackwell"
+        author: "- Lawana Blackwell -"
     },
     {
         quote: "You will face many defeats in life, but never let yourself be defeated.",
-        author: "Maya Angelou"
+        author: "- Maya Angelou -"
     },
     {
         quote: "This too shall pass.",
-        author: "Et hoc transibit"
+        author: "- Et hoc transibit -"
     },
     {
         quote: "Only I can change me life, no one can do it for me.",
-        author: "Carol Burnett"
+        author: "- Carol Burnett -"
     },
     {
         quote: "Life is a mountain. Your goal is to find your path, not to reach the top.",
-        author: "Maxime Lagacé"
+        author: "- Maxime Lagacé -"
     },
     {
         quote: "Despite the forecast, live like it’s spring.",
-        author: "Lilly Pulitzer"
+        author: "- Lilly Pulitzer -"
     },
     {
         quote: "Don’t be afraid to give up the good to go for the great.",
-        author: "John D. Rockefeller"
+        author: "- John D. Rockefeller -"
     },
     {
         quote: "Try not to become a man of success. Rather become a man of value.",
-        author: "Albert Einstein"
+        author: "- Albert Einstein -"
     },
     {
         quote: "The way to get started is to quit talking and begin doing.",
-        author: "Walt Disney"
+        author: "- Walt Disney -"
     },
     {
         quote: "I’ve failed over and over and over again in my life and that is why I succeed.",
-        author: "Michael Jordan"
+        author: "- Michael Jordan -"
     }
 ]
 
